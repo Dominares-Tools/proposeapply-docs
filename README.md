@@ -4,7 +4,7 @@
 
 Commercial license v1.3 — see https://dominares.org/license · Support: support@dominares.org
 
-proposeapply is the part between a model's suggestion and your data. A model proposes changes in one strict JSON shape, a person approves, and registered handlers apply them. Every change goes into an append-only log and can be undone with one call, under a daily spend cap and off-by-default switches. You supply the model call and the handlers.
+proposeapply is the part between a model's suggestion and your data. A model proposes changes in one strict JSON shape, a person approves, and registered handlers apply them. Every applied change goes into an append-only log, and one with a registered inverse can be undone with one call, under a daily spend cap and an apply switch that starts off. You supply the model call and the handlers.
 
 ## Get it
 
